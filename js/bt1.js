@@ -14,6 +14,7 @@
  * B1: tạo biến cho người dùng nhập vào và gán lại giá trị cho biến
  * B2: Lập công thức tính toán 
  *  tienLuong = tienLuong1Ngay
+ * B3: In kết quả ra màn hình
  * 
  * Khối 3: Output
  * tienLuong1Ngay

@@ -12,10 +12,12 @@
  * + num4
  * + num5
  * 
- * Khối 2: Progress
+ * Khối 2: Các bước cần xử lý
  * B1: tạo biến và cho người dùng nhập vào sau đó gán giá trị lại cho biến
  * B2: Lập công thức tính toán số trung bình của 5 số thực 
  * TinhTrungBinh = (Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5) )/5;
+ * 
+ * B3: In kết quả ra màn hình
  * 
  * Khối 3: Output
  * + soTrungBinh

@@ -13,6 +13,7 @@
  * B1: tạo biến cho người dùng nhập vào và gán lại giá trị cho biến
  * B2: Lập công thức tính toán 
  *  1USD = 1 * 23.500 = 23.500 VND
+ * B3: In kết quả ra màn hình
  * 
  * Khối 3: Output
  * USD
@@ -22,7 +23,8 @@
 
  function QuyDoiTien(){
     var soUSD = document.getElementById('soTienUSD').value;
-    var quyDoi = soUSD * 23500;
+    var soVND = document.getElementById('soTienVND').value;
+    var quyDoi = soUSD * soVND;
 
 document.getElementById('VND').innerHTML = quyDoi.toLocaleString();
  }

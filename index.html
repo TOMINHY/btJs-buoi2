@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="container mt-5">
+  <div class="container my-5">
     <h2>Viết chương trình tính tiền lương của nhân viên</h2>
     <div class="w-50 mt-5">
       <form>
@@ -32,7 +32,7 @@
     </div>
   </div>
   </div>
-  <div class="container mt-5">
+  <div class="container my-5">
     <h2>Tính giá trị trung bình của 5 số thực</h2>
     <div class="w-50 mt-5">
       <form>
@@ -63,7 +63,7 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5">
+  <div class="container my-5">
     <h2>Quy đổi tiền</h2>
     <div class="w-50 mt-5">
       <form>
@@ -71,7 +71,11 @@
           <p>Nhập USD</p>
           <input type="number" class="form-control w-30" id="soTienUSD">
         </div>
-        <button type="button" id="btnQuyDoi" class="btn btn-success">Click!</button>
+        <div class="form-group">
+          <p>Nhập VND</p>
+          <input type="number" class="form-control w-30" id="soTienVND">
+        </div>
+        <button type="button" id="btnQuyDoi" class="btn btn-success">Chuyển đổi</button>
       </form>
       <div class="alert alert-info mt-3">
         VND =
@@ -79,7 +83,41 @@
       </div>
     </div>
   </div>
-
+  <div class="container my-5">
+    <div class="w-50 mt-5">
+      <h2>Tính chu vi và diện tích HCN</h2>
+      <form>
+        <div class="form-group">
+          <p>Nhập vào chiều dài HCN</p>
+          <input type="number" class="form-control w-30" id="cDaiHCN">
+        </div>
+        <div class="form-group">
+          <p>Nhập vào chiều rộng HCN</p>
+          <input type="number" class="form-control w-30" id="cRongHCN">
+        </div>
+        <button type="button" class="btn btn-success" id="btnHCN">Tính</button>
+      </form>
+      <div class="alert alert-info mt-3">
+        Chu vi : <p id="chuVi"></p>
+        Diện tích : <p id="dienTich"></p>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="w-50 mt-5">
+      <h2>Tính tổng 2 ký số</h2>
+      <form>
+        <div class="form-group">
+          <p>Nhập số có 2 ký số</p>
+          <input type="number" class="form-control w-30" id="numInput">
+        </div>
+        <button type="button" class="btn btn-success" id="btnTinhTong2">Tính Tổng</button>
+      </form>
+      <div class="alert alert-info mt-3">
+        Kết Quả : <span id="tong"></span>
+      </div>
+    </div>
+  </div>
 
   <!-- BS4 -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -92,6 +130,8 @@
   <script src="./js/bt1.js"></script>
   <script src="./js/bt2.js"></script>
   <script src="./js/bt3.js"></script>
+  <script src="./js/bt4.js"></script>
+  <script src="./js/bt5.js"></script>
 </body>
 
 </html>
