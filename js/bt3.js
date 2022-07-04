@@ -1,6 +1,6 @@
 /**
  * Author: TO MINH Y
- * Function: Tính tiền lương nhân viên
+ * Function: Quy Đổi tiền
  * Release : 3/7/2022
  */
 
@@ -23,8 +23,7 @@
 
  function QuyDoiTien(){
     var soUSD = document.getElementById('soTienUSD').value;
-    var soVND = document.getElementById('soTienVND').value;
-    var quyDoi = soUSD * soVND;
+    var quyDoi = soUSD * 23500;
 
 document.getElementById('VND').innerHTML = quyDoi.toLocaleString();
  }
